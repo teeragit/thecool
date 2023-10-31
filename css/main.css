@@ -42,6 +42,7 @@ img {
 
 .header-logo {
   margin: 0;
+  text-transform: uppercase;
 }
 
 .header-logo-img {
@@ -79,11 +80,12 @@ img {
 }
 
 .enquiries-button {
-  display: inline-block;
+  display: block;
   background: var(--color-sky);
   color: var(--color-white);
   margin: .5rem 0 1rem 0;
   padding: .5rem .75rem;
+  width: fit-content;
   font-size: 1.25rem;
   font-weight: 600;
   border-radius: .25rem;
@@ -161,7 +163,7 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 101vw;
+  width: 102vw;
 }
 
 @keyframes swirl { 
@@ -215,10 +217,113 @@ img {
   }
   
   .artwork-image-img {
-    width: 50.5vw;
+    width: 51vw;
   }
 
 }
 
-@media only screen and (min-width: 35em) {
+@media (min-width: 768px) {
+
+  .content {
+    padding: 4rem 3rem;
+  }
+
+  .header-logo-img {
+    height: 2rem;
+  }
+  
+  .header-tagline {
+    margin: 2.5rem 0 1.5rem 0;
+    font-size: 2.5rem;
+  }
+  
+  .header-copy {
+    font-size: 1.75rem;
+  }
+  
+  .enquiries-copy {
+    font-size: 1.5rem;
+  }
+  
+  .enquiries-button {
+    margin: .75rem 0 1.5rem 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+  }
+
+  .enquiries-caption {
+    font-size: 1rem;
+  }
+  
+  .footer-socials-button {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+  }
+
+  .artwork-icons {
+    padding: 0 3rem 2rem 0;
+  }
+  
+  .artwork-icons-img {
+    width: 33vw;
+  }
+
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+
+  .artwork-icons {
+    padding: 0 3rem 3rem 0;
+    top: auto;
+    bottom: 30.769vw;
+  }
+
+  .artwork-icons-img {
+    width: auto;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .content {
+    padding: 7.5rem 5rem;
+    max-width: 900px;
+  }
+  
+  .header-tagline {
+    font-size: 4rem;
+    line-height: 1;
+  }
+  
+  .header-copy {
+    font-size: 2rem;
+  }
+
+  .artwork-icons {
+    padding: 0 5rem 3rem 0;
+    bottom: 50vh;
+  }
+  
+  .artwork-icons-img {
+    max-height: 20vh;
+  }
+
+  .artwork-graphic {
+    width: 81.25vh;
+    height: 50vh;
+  }
+  
+  .artwork-graphic-img {
+    width: 100vh;
+    height: 100vh;
+  }
+  
+  .artwork-image-img {
+    width: 83vh;
+  }
+
 }
