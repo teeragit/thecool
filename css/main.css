@@ -37,6 +37,7 @@ img {
 .content {
   padding: 3rem 2rem;
   box-sizing: border-box;
+  max-width: 35em;
 }
 
 .header-logo {
@@ -85,7 +86,6 @@ img {
   margin: .5rem 0 1rem 0;
   padding: .5rem .75rem;
   width: fit-content;
-  font-size: 1.25rem;
   font-weight: 600;
   border-radius: .25rem;
   transition: background 1s;
@@ -132,13 +132,13 @@ img {
 }
 
 .artwork-icons {
-  padding: 0 2rem 2rem 0;
+  padding: 0 2rem 0 0;
 }
 
 .artwork-icons-img {
   display: block;
   margin: 0 0 0 auto;
-  width: 50vw;
+  width: 65vw;
 }
 
 .artwork-graphic {
@@ -179,7 +179,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50vw;
+    max-width: 50vw;
     min-height: 100vh;
   }
 
@@ -193,13 +193,11 @@ img {
   .artwork-icons {
     position: absolute;
     right: 0;
-    top: 3rem;
+    bottom: 30.769vw;
   }
 
   .artwork-icons-img {
-    width: auto;
-    height: calc(100vh - 30.769vw - 5rem);
-    max-height: 12.5vw;
+    width: 29vw;
   }
 
   .artwork-graphic {
@@ -262,26 +260,12 @@ img {
     border-radius: 1.5rem;
   }
 
-  .artwork-icons {
-    padding: 0 3rem 2rem 0;
-  }
-  
-  .artwork-icons-img {
-    width: 33vw;
-  }
-
 }
 
 @media (min-width: 768px) and (orientation: landscape) {
 
-  .artwork-icons {
-    padding: 0 3rem 3rem 0;
-    top: auto;
-    bottom: 30.769vw;
-  }
-
   .artwork-icons-img {
-    width: auto;
+    width: 31vw;
   }
 
 }
@@ -303,12 +287,12 @@ img {
   }
 
   .artwork-icons {
-    padding: 0 5rem 3rem 0;
+    right: 1rem;
     bottom: 50vh;
   }
-  
+
   .artwork-icons-img {
-    max-height: 20vh;
+    width: 50vh;
   }
 
   .artwork-graphic {
@@ -330,12 +314,12 @@ img {
 @media (min-width: 1600px) {
 
   .artwork-icons {
-    top: 7.5rem;
-    bottom: auto;
+    right: 2rem;
+    bottom: 66.667vh;
   }
-  
+
   .artwork-icons-img {
-    height: calc(33.333vh - 10rem);
+    width: 68vh;
   }
 
   .artwork-graphic {
