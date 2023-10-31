@@ -131,14 +131,10 @@ img {
   position: relative;
 }
 
-.artwork-icons {
-  padding: 0 2rem 0 0;
-}
-
 .artwork-icons-img {
   display: block;
-  margin: 0 0 0 auto;
-  width: 65vw;
+  margin: 0 4vw -3rem auto;
+  width: 87.5vw;
 }
 
 .artwork-graphic {
@@ -188,16 +184,6 @@ img {
     top: 0;
     bottom: 0;
     right: 0;
-  }
-
-  .artwork-icons {
-    position: absolute;
-    right: 0;
-    bottom: 30.769vw;
-  }
-
-  .artwork-icons-img {
-    width: 29vw;
   }
 
   .artwork-graphic {
@@ -262,15 +248,22 @@ img {
 
 }
 
-@media (min-width: 768px) and (orientation: landscape) {
+@media (orientation: landscape) {
+
+  .artwork-icons {
+    position: absolute;
+    right: 0;
+    bottom: 30.769vw;
+  }
 
   .artwork-icons-img {
-    width: 31vw;
+    margin: 0 2vw -2rem auto;
+    width: 43.75vw;
   }
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
 
   .content {
     padding: 7.5rem 5rem;
@@ -287,12 +280,14 @@ img {
   }
 
   .artwork-icons {
-    right: 1rem;
+    position: absolute;
+    right: 0;
     bottom: 50vh;
   }
 
   .artwork-icons-img {
-    width: 50vh;
+    margin: 0 3vh -9vh auto;
+    width: 71.094vh;
   }
 
   .artwork-graphic {
@@ -311,15 +306,15 @@ img {
 
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1680px) {
 
   .artwork-icons {
-    right: 2rem;
     bottom: 66.667vh;
   }
 
   .artwork-icons-img {
-    width: 68vh;
+    margin: 0 6vh -12vh auto;
+    width: 94.791vh;
   }
 
   .artwork-graphic {
