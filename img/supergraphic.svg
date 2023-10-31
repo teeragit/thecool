@@ -14,12 +14,12 @@
         fill: #307ef2;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="-52.24" y1="484.9" x2="1067.3" y2="484.9" gradientTransform="translate(636.61 -201.28) rotate(54.91)" gradientUnits="userSpaceOnUse">
-      <stop offset=".5" stop-color="#212a5c"/>
-      <stop offset=".56" stop-color="#1e2656"/>
-      <stop offset=".63" stop-color="#161c48"/>
-      <stop offset=".71" stop-color="#090b30"/>
-      <stop offset=".75" stop-color="#000020"/>
+    <linearGradient id="linear-gradient" x1="-48.99" y1="450.85" x2="1064.49" y2="550.04" gradientTransform="translate(636.61 -201.28) rotate(54.91)" gradientUnits="userSpaceOnUse">
+      <stop offset=".4" stop-color="#212a5c"/>
+      <stop offset=".45" stop-color="#1e2656"/>
+      <stop offset=".5" stop-color="#161c48"/>
+      <stop offset=".57" stop-color="#090b30"/>
+      <stop offset=".6" stop-color="#000020"/>
     </linearGradient>
   </defs>
   <path class="cls-2" d="m0,514.79s.01.04.02.06c-.01-2.39-.02-4.79,0-7.18-.02,2.37-.03,4.75-.02,7.12Zm1022.86-37.27c-8.73-141.17-79.84-276.64-190.35-364.88h0c135.54,220.14,77.82,510.55-136.52,661.18v-.03C444.59,933.33,94.54,788.95.03,514.84c-.05,276.18,227.29,505.81,503.33,509.07,298.08,6.25,540.51-249.04,519.51-546.4Z"/>
