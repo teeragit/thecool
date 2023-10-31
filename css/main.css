@@ -37,9 +37,6 @@ img {
 
 .content {
   padding: 3rem 2rem;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   box-sizing: border-box;
 }
 
@@ -169,6 +166,58 @@ img {
 
 @keyframes swirl { 
   100% { transform: rotate(360deg); } 
+}
+
+@media (orientation: landscape) {
+
+  #landing {
+    display: block;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    min-height: 100vh;
+  }
+
+  .artwork {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .artwork-icons {
+    position: absolute;
+    right: 0;
+    top: 3rem;
+  }
+
+  .artwork-icons-img {
+    width: auto;
+    height: calc(100vh - 30.769vw - 5rem);
+    max-height: 12.5vw;
+  }
+
+  .artwork-graphic {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 30.769vw;
+  }
+  
+  .artwork-graphic-img {
+    width: 61.538vw;
+    height: 61.538vw;
+  }
+  
+  .artwork-image-img {
+    width: 50.5vw;
+  }
+
 }
 
 @media only screen and (min-width: 35em) {
