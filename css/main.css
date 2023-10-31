@@ -326,3 +326,30 @@ img {
   }
 
 }
+
+@media (min-width: 1600px) {
+
+  .artwork-icons {
+    top: 7.5rem;
+    bottom: auto;
+  }
+  
+  .artwork-icons-img {
+    height: calc(33.333vh - 10rem);
+  }
+
+  .artwork-graphic {
+    width: 108.333vh;
+    height: 66.667vh;
+  }
+  
+  .artwork-graphic-img {
+    width: 133.333vh;
+    height: 133.333vh;
+  }
+  
+  .artwork-image-img {
+    width: 110vh;
+  }
+
+}
