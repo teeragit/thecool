@@ -275,7 +275,7 @@ img {
 
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1400px) {
 
   .content {
     padding: 7.5rem 5rem;
@@ -318,7 +318,7 @@ img {
 
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1400px) {
 
   .artwork-icons {
     bottom: 66.667vh;
