@@ -101,7 +101,7 @@ img {
   font-size: .75rem;
 }
 
-.footer-socials {
+.footer-icons {
   margin: 0;
   padding: 0;
   display: flex;
@@ -109,7 +109,7 @@ img {
   list-style: none;
 }
 
-.footer-socials-button {
+.footer-icons-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,9 +122,17 @@ img {
   transition: background 1s;
 }
 
-.footer-socials-button:hover {
+.footer-icons-button:hover {
   background: var(--color-sky);
   transition-duration: .25s;
+}
+
+.footer-icons-caption {
+  display: block;
+  margin: .25rem auto 0 auto;
+  font-size: .75rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .artwork {
@@ -239,11 +247,15 @@ img {
     font-size: 1rem;
   }
   
-  .footer-socials-button {
+  .footer-icons-button {
     font-size: 1.5rem;
     width: 3rem;
     height: 3rem;
     border-radius: 1.5rem;
+  }
+
+  .footer-icons-caption {
+    font-size: 1rem;
   }
 
 }
@@ -306,7 +318,7 @@ img {
 
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 1920px) {
 
   .artwork-icons {
     bottom: 66.667vh;
